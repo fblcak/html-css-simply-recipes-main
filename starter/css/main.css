@@ -260,15 +260,15 @@ Navbar
 ===============
 */
 
-.navbar{
-display: flex;
-justify-content: center;
-align-items: center;
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.nav-centr{
-width: 90vw;
-max-width: var(--max-width);
+.nav-centr {
+  width: 90vw;
+  max-width: var(--max-width);
 }
 
 .nav-header {
@@ -296,11 +296,11 @@ max-width: var(--max-width);
 }
 
 .nav-links {
-display: flex;
-flex-direction: colum;
-height: 0;
-overflow: hidden;
-transition: var--(transition);
+  display: flex;
+  flex-direction: colum;
+  height: 0;
+  overflow: hidden;
+  transition: var--(transition);
 }
 
 .show-links {
@@ -308,14 +308,14 @@ transition: var--(transition);
 }
 
 .nav-link {
- display: block;
- text-align: center;
- text-transform: capitalize;
- color: var(--grey-900);
- letter-spacing: var(--letterSpacing);
- padding: 1rem 0;
- border-top: 1px solid var(--grey-500);
- transition: var(--transition);
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--grey-900);
+  letter-spacing: var(--letterSpacing);
+  padding: 1rem 0;
+  border-top: 1px solid var(--grey-500);
+  transition: var(--transition);
 }
 
 .nav-link:hover {
@@ -361,7 +361,6 @@ transition: var--(transition);
  
 
 .page {
-  background-color: red;
   width:  90vw;
   max-width: var(--max-width);
   margin: 0 auto;
@@ -384,4 +383,33 @@ transition: var--(transition);
 .footer-logo,
 .page-footer a {
   color: var(--primary-500);
+}
+
+.hero {
+  height: 40vh;
+  background: url('../assets/main.jpeg') center/cover no-repeat;
+  margin-bottom: 2rem;
+  border-radius: var(--borderRadius);
+  position: relative;
+}
+.hero-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: var(--bordeRadius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-text {
+  text-align: center;
+  color: var(--white);
+}
+@media screen and (min-width:768px) {
+  .hero-text h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
 }
