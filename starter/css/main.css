@@ -266,7 +266,7 @@ Navbar
   align-items: center;
 }
 
-.nav-centr {
+.nav-center {
   width: 90vw;
   max-width: var(--max-width);
 }
