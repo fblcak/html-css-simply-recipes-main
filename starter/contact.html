@@ -29,19 +29,88 @@
        </button> 
       </div>
       <div class="nav-links">
-        <a ref="index.html" class="nav-link">home</a>
-        <a ref="about.html" class="nav-link">about</a>
-        <a ref="tags.html" class="nav-link">tags</a>
-        <a ref="recipes.html" class="nav-link">recipes</a>
+        <a href="index.html" class="nav-link">home</a>
+        <a href="about.html" class="nav-link">about</a>
+        <a href="tags.html" class="nav-link">tags</a>
+        <a href="recipes.html" class="nav-link">recipes</a>
         <div class="nav-links contact-links">
-        <a ref="contact.html" class="btn">contact</a>
+        <a href="contact.html" class="btn">contact</a>
         </div>
       </div>
     </div>
    </nav>
 
    <main class="page">
-    <h1>Contact Page</h1>
+    <section class="contact-container">
+     <article class="contact-info">
+      <h3>Want To Place An Order?</h3>
+      <p>
+        So what goes into a good recipe? We asked our users. Eight out of ten Whisk users define a good recipe as one with easy-to-follow instructions. Other requirements include easy to make or replicate and a detailed ingredient list.
+      </p>
+       <p>
+        When it comes to delicious recipes, clarity trumps all. Your recipe needs to follow a recognized structure that gives immediate access to all the important information.
+       </p>
+     </article>
+     <article>
+         <form class="form contact-form">
+          <div class="form-row">
+            <label for="name" class="form-label">your name</label>
+            <input type="text" name="name" id="name", class="form-input" />
+          </div>
+
+
+          <div class="form-row">
+            <label for="email" class="form-label">your name</label>
+            <input type="text" name="email" id="email", class="form-input" />
+          </div>
+          <div class="form-row">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+             name="message"
+             id="message" 
+             class="form-textarea"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-block">submit</button>
+         </form>
+     </article>
+    </section>
+    <section class="featured-recipes">
+      <h5 class="featured-title">Tourch Of Delicacy!</h5>
+      <div class="recipes-list">
+
+        <a href="single-recipe.html" class="recipe">
+          <img
+           src="./assets/recipes/recipe-1.jpeg" alt="food"
+          class="img recipe-img"
+          />
+          <h5>carne asada</h5>
+          <p>Prep : 15min | Cook : 5min</p>
+        </a>
+
+
+        <a href="single-recipe.html" class="recipe">
+          <img
+           src="./assets/recipes/recipe-2.jpeg" alt="food"
+          class="img recipe-img"
+          />
+          <h5>greek ribs</h5>
+          <p>Prep : 15min | Cook : 5min</p>
+        </a>
+
+
+        <a href="single-recipe.html" class="recipe">
+          <img
+           src="./assets/recipes/recipe-3.jpeg" alt="food"
+          class="img recipe-img"
+          />
+          <h5>vegetables</h5>
+          <p>Prep : 15min | Cook : 5min</p>
+        </a>
+
+
+      </div>
+    </section>
    </main>
    
    <footer class="page-footer">

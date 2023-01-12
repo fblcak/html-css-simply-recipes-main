@@ -29,19 +29,71 @@
        </button> 
       </div>
       <div class="nav-links">
-        <a ref="index.html" class="nav-link">home</a>
-        <a ref="about.html" class="nav-link">about</a>
-        <a ref="tags.html" class="nav-link">tags</a>
-        <a ref="recipes.html" class="nav-link">recipes</a>
+        <a href="index.html" class="nav-link">home</a>
+        <a href="about.html" class="nav-link">about</a>
+        <a href="tags.html" class="nav-link">tags</a>
+        <a href="recipes.html" class="nav-link">recipes</a>
         <div class="nav-links contact-links">
-        <a ref="contact.html" class="btn">contact</a>
+        <a href="contact.html" class="btn">contact</a>
         </div>
       </div>
     </div>
    </nav>
 
    <main class="page">
-    <h1>Single-recipe Page</h1>
+
+    <div class="recipe-page"></div>
+       <section class="recipe-hero">
+        <img 
+        src="./assets/recipes/recipe-4.jpeg" 
+        class="img-recipe-hero-img"
+        alt="pancakes"
+        />
+        <article>
+          <h2>Banana Pancakes</h2>
+          <P>Chef Tips
+            For dairy-free Banana Pancakes, make with almond or soy milk, and swap the butter for melted coconut oil, grapeseed oil, or another neutral-flavored oil.
+            
+            Want to keep your pancakes hot with out drying them out? Here’s how:
+            
+            Bring an inch or so of water to the boil in a large saucepan. Cover pan with a plate and turn the heat down to low. Place just cooked pancakes onto the plate while you are cooking other batches, and cover with a couple sheets of paper or tea towels for extra insulation.
+          </P>
+          <div class="recipe icons">
+            <article>
+              <i class="fas fa-clock"></i>
+              <h5>prep time</h5>
+              <p>30 min.</p>
+            </article>
+          </div>
+
+          <div class="recipe icons">
+            <article>
+              <i class="far fa-clock"></i>
+              <h5>cook time</h5>
+              <p>15 min.</p>
+            </article>
+          </div>
+
+          <div class="recipe icons">
+            <article>
+              <i class="fas fa-user-friends"></i>
+              <h5>servings</h5>
+              <p>6 servings</p>
+            </article>
+          </div>
+
+          <div class="recipe-tags">
+            Tags  : <a href="tag-template.html">beef</a>
+            <a href="tag-template.html">breakfast</a>
+            <a href="tag-template.html">pancakes</a>
+            <a href="tag-template.html">food</a>
+          </div>
+
+        </article>
+       </section>
+
+       <section class="recipe-content"></section>
+    </div>
    </main>
    
    <footer class="page-footer">
